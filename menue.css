@@ -1,0 +1,341 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.openpageB {
+    /*background-color: #C1EDFF;*/
+    /*background-color: white;*/
+    background-color: #D8E6EC;
+    font-family: 'Rubik', sans-serif;
+}
+#container {
+    background-image: url('../images/backPic.png');
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    height:640px;
+}
+.helpFalse{
+    text-decoration:none;
+
+}
+    .helpFalse:hover {
+        cursor: not-allowed;
+        text-decoration: none;
+    }
+
+#enter {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/emptyB.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+    right: 20px;
+}
+iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+   
+}
+
+#gameArea {
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+   
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    direction: rtl;
+    display: block;
+    direction: rtl;
+    z-index: 3;
+   
+}
+
+    /*כותרת משחק*/
+    header > a > p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 12pt;
+        font-weight: 600;
+        position: relative;
+        top: -20px;
+        color: black;
+        display: inline-block;
+        direction: rtl;
+        
+    }
+
+/*לוגו*/
+#logo {
+    width: 35px;
+    height: 35px;
+    padding: 5px 15px;
+    direction: rtl;
+    
+}
+
+nav {
+    margin-top: -70px;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+    nav ul {
+        list-style: none;
+        direction: rtl;
+    }
+
+        nav ul li {
+            display: inline-block;
+            float: left;
+            direction: rtl;
+        }
+
+            nav ul li a {
+                display: block;
+                color: rgb(30, 104, 177);
+                text-align: center;
+                padding: 3px 10px;
+
+                font-weight: 400;
+                font-size: 12pt;
+                font-family: 'Rubik', sans-serif;
+                direction: rtl;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    font-weight: 600;
+                    cursor: pointer;
+                    font-family: 'Rubik', sans-serif;
+                    direction: rtl;
+                    text-decoration: none;
+                }
+
+       /*חלונית קופצת*/
+
+.popUp {
+    background-color: white;
+  opacity:95%;
+    width: 400px;
+    position: fixed;
+    top: 60px;
+    z-index: 4;
+    text-align: center;
+    width: 700px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 25px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    border: 1px solid black;
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*לוגו בחלוניות*/
+.imgtop{
+
+    margin-top:-15px;
+}
+
+/*כותרות חלוניות*/
+.headP {
+    padding-left: 600px;
+    margin-top: -23px;
+    font-size: 20px;
+}
+
+
+/*
+חלונית אודות*/
+#aboutDiv {
+    font-size: 16px;
+}
+#madeby {
+    font-size: 20px;
+    text-decoration: solid;
+    margin-top: -5px;
+}
+.names {
+    position: relative;
+    display: inline-block;
+    padding: 35px;
+    margin-top: -30px;
+   
+}
+
+.Pics {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    width:120px;
+    height:120px;
+    margin-top:-60px;
+
+}
+
+.HIT{
+    width:100px;
+   
+}
+.Telem {
+    font-size: 12px;
+    margin-top:-3px;
+}
+
+
+.closeAbout {
+    font-size: 20px;
+    padding-right: 600px;
+}
+    .closeAbout:hover {
+        cursor: pointer;
+    }
+
+/*איך משחקים?*/
+
+.closeHowToPlay {
+    font-size: 20px;
+    padding-right: 600px;
+}
+
+    .closeHowToPlay:hover {
+        
+        cursor: pointer;
+    }
+#howToPlayDiv p {
+font-size:16px;
+}
+
+.redT {
+    color: red;
+    font-weight: normal;
+}
+/*קרדיטים*/
+.closeCredits {
+    font-size: 20px;
+    padding-right: 600px;
+}
+    .closeCredits:hover {
+        cursor: pointer;
+    }
+#CreditsDiv ul li {
+    list-style-type: none;
+}
+#gameCodeStart {
+    direction: rtl;
+    position: relative;
+    top: 100px;
+    right: 570px;
+    font-size: 14pt;
+    font-weight:bold;
+}
+
+#backgroundIMGstart img{
+    z-index:-5;
+}
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+
+
+}

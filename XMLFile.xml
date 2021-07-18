@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pullTheCarrot>
+  <game isPublish="False" timePerQuest="60" GameCode="105" GameScore="1">
+    <GameSubject>limor</GameSubject>
+    <questions>
+      <question id="1">
+        <questionText>111</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">1111111</answer>
+          <answer AnsType="text" feedback="false" ansID="2">1111111</answer>
+          <answer AnsType="text" feedback="false" ansID="3" />
+        </answers>
+      </question>
+      <question id="2">
+        <questionText>bbb</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">bbb</answer>
+          <answer AnsType="text" feedback="false" ansID="2">bb</answer>
+          <answer AnsType="text" feedback="false" ansID="3">bbb</answer>
+        </answers>
+      </question>
+      <question id="3">
+        <questionText>ccc</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">ccccccc</answer>
+          <answer AnsType="text" feedback="false" ansID="2">ccccccc</answer>
+          <answer AnsType="text" feedback="false" ansID="3">ccccccccc</answer>
+          <answer AnsType="text" feedback="false" ansID="4">cccccccc</answer>
+        </answers>
+      </question>
+      <question id="4">
+        <questionText>ddddd</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">dddddddddddd</answer>
+          <answer AnsType="text" feedback="false" ansID="2">dddddddd</answer>
+          <answer AnsType="text" feedback="false" ansID="3">ddddddd</answer>
+          <answer AnsType="text" feedback="false" ansID="4">ddddddd</answer>
+          <answer AnsType="text" feedback="false" ansID="5">ddddddd</answer>
+        </answers>
+      </question>
+      <question id="5">
+        <questionText>22222</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">2222222</answer>
+          <answer AnsType="text" feedback="false" ansID="2">2222222</answer>
+          <answer AnsType="img" feedback="false" ansID="3">10_07_21-12_39_10_69423.png</answer>
+        </answers>
+      </question>
+      <question id="6">
+        <questionText>3333333</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">333333333</answer>
+          <answer AnsType="text" feedback="false" ansID="2">333333</answer>
+          <answer AnsType="img" feedback="false" ansID="3">*</answer>
+          <answer AnsType="img" feedback="false" ansID="4">*</answer>
+          <answer AnsType="text" feedback="false" ansID="5">
+          </answer>
+        </answers>
+      </question>
+      <question id="7">
+        <questionText>444</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">44444444</answer>
+          <answer AnsType="text" feedback="false" ansID="2">4444444</answer>
+          <answer AnsType="img" feedback="false" ansID="3">*</answer>
+        </answers>
+      </question>
+      <question id="8">
+        <questionText>555555</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">555555555</answer>
+          <answer AnsType="text" feedback="false" ansID="2">555555</answer>
+          <answer AnsType="text" feedback="false" ansID="3">
+          </answer>
+        </answers>
+      </question>
+      <question id="9">
+        <questionText>666666</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">66666666</answer>
+          <answer AnsType="text" feedback="false" ansID="2">66666666</answer>
+          <answer AnsType="img" feedback="false" ansID="3">*</answer>
+        </answers>
+      </question>
+    </questions>
+    <endFeedback>%d7%9b%d7%9c+%d7%94%d7%9b%d7%91%d7%95%d7%93!+%d7%a1%d7%99%d7%99%d7%9e%d7%aa+%d7%90%d7%aa+%d7%99%d7%95%d7%9d+%d7%94%d7%a2%d7%91%d7%95%d7%93%d7%94+%d7%a9%d7%9c%d7%9a+%d7%95%d7%94%d7%91%d7%90%d7%aa+%d7%90%d7%aa+%d7%9b%d7%9c+%d7%94%d7%92%d7%96%d7%a8%d7%99%d7%9d+%d7%94%d7%91%d7%99%d7%aa%d7%94.</endFeedback>
+  </game>
+  <game isPublish="True" timePerQuest="30" GameCode="104" GameScore="0">
+    <GameSubject>%d7%97%d7%92%d7%99+%d7%99%d7%a9%d7%a8%d7%90%d7%9c</GameSubject>
+    <questions>
+      <question id="1">
+        <questionText>%d7%90%d7%99%d7%96%d7%94+%d7%97%d7%92+%d7%9e%d7%a1%d7%9e%d7%9c+%d7%90%d7%aa+%d7%aa%d7%97%d7%99%d7%9c%d7%aa+%d7%94%d7%a9%d7%a0%d7%94+%d7%94%d7%99%d7%94%d7%95%d7%93%d7%99%d7%aa%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a8%d7%90%d7%a9+%d7%94%d7%a9%d7%a0%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%a4%d7%a1%d7%97</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa</answer>
+          <answer AnsType="text" feedback="false" ansID="4">%d7%a1%d7%95%d7%9b%d7%95%d7%aa</answer>
+        </answers>
+      </question>
+      <question id="2">
+        <questionText>%d7%90%d7%99%d7%9c%d7%95+%d7%9e%d7%9f+%d7%94%d7%97%d7%92%d7%99%d7%9d+%d7%94%d7%91%d7%90%d7%99%d7%9d+%d7%90%d7%99%d7%a0%d7%95+%d7%97%d7%9c+%d7%91%d7%97%d7%95%d7%93%d7%a9+%d7%aa%d7%a9%d7%a8%d7%99%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a4%d7%95%d7%a8%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%a1%d7%95%d7%9b%d7%95%d7%aa</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%a8%d7%90%d7%a9+%d7%94%d7%a9%d7%a0%d7%94</answer>
+        </answers>
+      </question>
+      <question id="3">
+        <questionText>%d7%97%d7%92+%d7%94%d7%a4%d7%a1%d7%97+%d7%a0%d7%a7%d7%a8%d7%90+%d7%92%d7%9d+%d7%97%d7%92+%d7%94%d7%90%d7%91%d7%99%d7%91</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a0%d7%9b%d7%95%d7%9f</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%9c%d7%90+%d7%a0%d7%9b%d7%95%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="4">
+        <questionText>%d7%9e%d7%94+%d7%9e%d7%94%d7%a4%d7%a8%d7%99%d7%98%d7%99%d7%9d+%d7%94%d7%91%d7%90%d7%99%d7%9d+%d7%90%d7%99%d7%a0%d7%95+%d7%a7%d7%a9%d7%95%d7%a8+%d7%9c%d7%97%d7%92+%d7%94%d7%a4%d7%a1%d7%97%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%9e%d7%a1%d7%9b%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%90%d7%aa%d7%a8%d7%95%d7%92</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%9e%d7%a6%d7%94</answer>
+          <answer AnsType="img" feedback="false" ansID="4">07_07_21-22_14_32_07494.jpg</answer>
+        </answers>
+      </question>
+      <question id="5">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%94+%d7%aa%d7%90%d7%a8%d7%99%d7%9a+%d7%9e%d7%a6%d7%99%d7%99%d7%a0%d7%99%d7%9d+%d7%90%d7%aa+%d7%a8%d7%90%d7%a9+%d7%94%d7%a9%d7%a0%d7%94+%d7%9c%d7%90%d7%99%d7%9c%d7%a0%d7%95%d7%aa%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%98%22%d7%95+%d7%91%d7%a9%d7%91%d7%98</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%9b%22%d7%94+%d7%91%d7%90%d7%99%d7%99%d7%a8</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%90%27+%d7%91%d7%aa%d7%a9%d7%a8%d7%99</answer>
+        </answers>
+      </question>
+      <question id="6">
+        <questionText>%d7%90%d7%aa+%d7%97%d7%92+%d7%94%d7%a1%d7%95%d7%9b%d7%95%d7%aa+%d7%97%d7%95%d7%92%d7%92%d7%99%d7%9d+7+%d7%99%d7%9e%d7%99%d7%9d%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a0%d7%9b%d7%95%d7%9f</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%9c%d7%90+%d7%a0%d7%9b%d7%95%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="7">
+        <questionText>מהו החג המצוין בתמונה?</questionText>
+        <img>07_07_21-22_16_46_13890.jpg</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">חנוכה</answer>
+          <answer AnsType="text" feedback="false" ansID="2">סוכות</answer>
+          <answer AnsType="text" feedback="false" ansID="3">ראש השנה</answer>
+        </answers>
+      </question>
+      <question id="8">
+        <questionText>%d7%9b%d7%9e%d7%94+%d7%96%d7%9e%d7%9f+%d7%a0%d7%9e%d7%a9%d7%9a+%d7%a0%d7%a1+%d7%a4%d7%9a+%d7%94%d7%a9%d7%9e%d7%9f%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">8+%d7%99%d7%9e%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="2">3+%d7%99%d7%9e%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="3">10+%d7%99%d7%9e%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="4">3+%d7%99%d7%9e%d7%99%d7%9d</answer>
+        </answers>
+      </question>
+      <question id="9">
+        <questionText>%d7%90%d7%99%d7%9c%d7%95+%d7%9e%d7%94%d7%9e%d7%90%d7%9b%d7%9c%d7%99%d7%9d+%d7%94%d7%91%d7%90%d7%99%d7%9d+%d7%a0%d7%95%d7%94%d7%92%d7%99%d7%9d+%d7%9c%d7%90%d7%9b%d7%95%d7%9c+%d7%91%d7%97%d7%92+%d7%94%d7%a4%d7%95%d7%a8%d7%99%d7%9d%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%90%d7%95%d7%96%d7%9f+%d7%94%d7%9e%d7%9f</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%94</answer>
+          <answer AnsType="img" feedback="false" ansID="3">07_07_21-22_17_35_00083.jpg</answer>
+        </answers>
+      </question>
+      <question id="10">
+        <questionText>%d7%91%d7%90%d7%99%d7%96%d7%94+%d7%97%d7%92+%d7%90%d7%95%d7%9b%d7%9c%d7%99%d7%9d+%d7%90%d7%aa+%d7%94%d7%9e%d7%90%d7%9b%d7%9c%d7%99%d7%9d+%d7%94%d7%9e%d7%95%d7%a4%d7%99%d7%a2%d7%99%d7%9d+%d7%91%d7%aa%d7%9e%d7%95%d7%a0%d7%94%3f</questionText>
+        <img>07_07_21-22_18_06_01210.jpg</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a4%d7%a1%d7%97</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%99%d7%95%d7%9d+%d7%94%d7%a2%d7%a6%d7%9e%d7%90%d7%95%d7%aa</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa</answer>
+          <answer AnsType="text" feedback="false" ansID="4">%d7%97%d7%a0%d7%95%d7%9b%d7%94</answer>
+        </answers>
+      </question>
+    </questions>
+    <endFeedback>%d7%9b%d7%9c+%d7%94%d7%9b%d7%91%d7%95%d7%93!+%d7%a1%d7%99%d7%99%d7%9e%d7%aa+%d7%90%d7%aa+%d7%99%d7%95%d7%9d+%d7%94%d7%a2%d7%91%d7%95%d7%93%d7%94+%d7%a9%d7%9c%d7%9a+%d7%95%d7%94%d7%91%d7%90%d7%aa+%d7%90%d7%aa+%d7%9b%d7%9c+%d7%94%d7%92%d7%96%d7%a8%d7%99%d7%9d+%d7%94%d7%91%d7%99%d7%aa%d7%94.</endFeedback>
+  </game>
+  <game isPublish="True" timePerQuest="60" GameCode="103" GameScore="1">
+    <GameSubject>%d7%9e%d7%9e%d7%9c%d7%9b%d7%aa+%d7%94%d7%97%d7%99%d7%95%d7%aa</GameSubject>
+    <questions>
+      <question id="1">
+        <questionText>%d7%9c%d7%90%d7%99%d7%96%d7%95+%d7%9e%d7%a9%d7%a4%d7%97%d7%94+%d7%a9%d7%99%d7%99%d7%9b%d7%aa+%d7%94%d7%97%d7%99%d7%94+%d7%a9%d7%91%d7%aa%d7%9e%d7%95%d7%a0%d7%94%3f</questionText>
+        <img>07_07_21-22_00_30_11130.jpg</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%9e%d7%a9%d7%a4%d7%97%d7%aa+%d7%94%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%9e%d7%a9%d7%a4%d7%97%d7%aa+%d7%94%d7%96%d7%95%d7%97%d7%9c%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%9e%d7%a9%d7%a4%d7%97%d7%aa+%d7%94%d7%9e%d7%a2%d7%95%d7%a4%d7%a4%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="4">%d7%9e%d7%a9%d7%a4%d7%97%d7%aa+%d7%94%d7%9e%d7%9b%d7%a8%d7%a1%d7%9e%d7%99%d7%9d</answer>
+        </answers>
+      </question>
+      <question id="2">
+        <questionText>%d7%9e%d7%94%d7%99+%d7%a9%d7%9e%d7%94+%d7%a9%d7%9c+%d7%a0%d7%a7%d7%91%d7%aa+%d7%94%d7%97%d7%9e%d7%95%d7%a8%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%90%d7%aa%d7%95%d7%9f</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%a0%d7%90%d7%a7%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%90%d7%99%d7%99%d7%9c%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="4">%d7%97%d7%9e%d7%95%d7%a8%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="5">%d7%a4%d7%a8%d7%93</answer>
+        </answers>
+      </question>
+      <question id="3">
+        <questionText>%d7%9c%d7%9e%d7%94+%d7%9e%d7%a9%d7%9e%d7%a9+%d7%96%d7%a0%d7%91+%d7%94%d7%a7%d7%a0%d7%92%d7%a8%d7%95%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a9%d7%99%d7%95%d7%95%d7%99+%d7%9e%d7%a9%d7%a7%d7%9c</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%94%d7%a8%d7%97%d7%a7%d7%aa+%d7%96%d7%91%d7%95%d7%91%d7%99%d7%9d</answer>
+        </answers>
+      </question>
+      <question id="4">
+        <questionText>%d7%9e%d7%94+%d7%a9%d7%9e%d7%95+%d7%a9%d7%9c+%d7%94%d7%91%d7%9f+%d7%a9%d7%9c+%d7%94%d7%90%d7%a8%d7%99%d7%94%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%9b%d7%a4%d7%99%d7%a8</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%a0%d7%9e%d7%a8</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%92%d7%95%d7%a8</answer>
+        </answers>
+      </question>
+      <question id="5">
+        <questionText>%d7%9e%d7%94+%d7%94%d7%97%d7%95%d7%a9+%d7%94%d7%9e%d7%a4%d7%95%d7%aa%d7%97+%d7%91%d7%99%d7%95%d7%aa%d7%a8+%d7%90%d7%a6%d7%9c+%d7%94%d7%9b%d7%9c%d7%91%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%97%d7%95%d7%a9+%d7%94%d7%a8%d7%99%d7%97</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%97%d7%95%d7%a9+%d7%94%d7%a9%d7%9e%d7%99%d7%a2%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%97%d7%95%d7%a9+%d7%94%d7%98%d7%a2%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="4">%d7%97%d7%95%d7%a9+%d7%94%d7%a8%d7%90%d7%99%d7%94</answer>
+          <answer AnsType="text" feedback="false" ansID="5">%d7%97%d7%95%d7%a9+%d7%94%d7%9e%d7%99%d7%a9%d7%95%d7%a9</answer>
+        </answers>
+      </question>
+      <question id="6">
+        <questionText>%d7%9e%d7%99%d7%94%d7%95+%d7%9e%d7%9c%d7%9a+%d7%94%d7%9e%d7%93%d7%91%d7%a8%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%92%d7%9e%d7%9c</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%90%d7%99%d7%99%d7%9c</answer>
+        </answers>
+      </question>
+      <question id="7">
+        <questionText>%d7%9e%d7%94+%d7%9e%d7%99%d7%99%d7%97%d7%93+%d7%90%d7%aa+%d7%94%d7%92%27%d7%99%d7%a8%d7%a4%d7%94%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a6%d7%95%d7%95%d7%90%d7%a8+%d7%95%d7%a8%d7%92%d7%9c%d7%99%d7%99%d7%9d+%d7%90%d7%a8%d7%95%d7%9b%d7%99%d7%9d</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%94%d7%9c%d7%99%d7%9b%d7%94+%d7%90%d7%99%d7%98%d7%99%d7%aa</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%9c%d7%a9%d7%95%d7%9f+%d7%99%d7%a8%d7%95%d7%a7%d7%94</answer>
+        </answers>
+      </question>
+      <question id="8">
+        <questionText>%d7%a9%d7%9e%d7%95+%d7%a9%d7%9c+%d7%a4%d7%a8+%d7%a6%d7%a2%d7%99%d7%a8+%d7%94%d7%95%d7%90+%d7%a2%d7%92%d7%9c</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a0%d7%9b%d7%95%d7%9f</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%9c%d7%90+%d7%a0%d7%9b%d7%95%d7%9f</answer>
+        </answers>
+      </question>
+      <question id="9">
+        <questionText>%d7%94%d7%99%d7%9b%d7%9f+%d7%9e%d7%aa%d7%92%d7%95%d7%a8%d7%a8+%d7%94%d7%92%d7%9e%d7%9c%3f</questionText>
+        <img>empty</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%91%d7%9e%d7%93%d7%91%d7%a8</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%91%d7%99%d7%a2%d7%a8</answer>
+          <answer AnsType="img" feedback="false" ansID="3">07_07_21-22_09_52_50983.jpg</answer>
+        </answers>
+      </question>
+      <question id="10">
+        <questionText>%d7%9c%d7%90%d7%99%d7%96%d7%95+%d7%97%d7%99%d7%94+%d7%a9%d7%99%d7%99%d7%9b%d7%aa+%d7%98%d7%91%d7%99%d7%a2%d7%aa+%d7%94%d7%a8%d7%92%d7%9c+%d7%94%d7%91%d7%90%d7%94%3f</questionText>
+        <img>07_07_21-22_11_14_50010.gif</img>
+        <answers>
+          <answer AnsType="text" feedback="true" ansID="1">%d7%a1%d7%95%d7%a1</answer>
+          <answer AnsType="text" feedback="false" ansID="2">%d7%97%d7%aa%d7%95%d7%9c</answer>
+          <answer AnsType="text" feedback="false" ansID="3">%d7%a6%d7%91</answer>
+          <answer AnsType="img" feedback="false" ansID="4">07_07_21-22_11_14_48424.jpg</answer>
+        </answers>
+      </question>
+    </questions>
+    <endFeedback>%d7%9b%d7%9c+%d7%94%d7%9b%d7%91%d7%95%d7%93!+%d7%a1%d7%99%d7%99%d7%9e%d7%aa+%d7%90%d7%aa+%d7%99%d7%95%d7%9d+%d7%94%d7%a2%d7%91%d7%95%d7%93%d7%94+%d7%a9%d7%9c%d7%9a+%d7%95%d7%94%d7%91%d7%90%d7%aa+%d7%90%d7%aa+%d7%9b%d7%9c+%d7%94%d7%92%d7%96%d7%a8%d7%99%d7%9d+%d7%94%d7%91%d7%99%d7%aa%d7%94.</endFeedback>
+  </game>
+</pullTheCarrot>

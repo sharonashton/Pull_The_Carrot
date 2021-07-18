@@ -1,0 +1,773 @@
+﻿/*הטמעת פונטים*/
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype'), url('../fonts/Rubik-Regular.eot') format('embedded-opentype');
+    
+}
+
+
+
+body {
+    direction: rtl;
+    margin: 0 auto;
+    font-family: 'Rubik-Regular';
+    font-size: 14pt;
+    width:1280px;
+    height:700px;
+    background-color:white;
+}
+
+.indexcolor {
+    background-color: #D8E6EC;
+}
+
+#QuestionAddEdit {
+    position: relative;
+    top: -470px;
+    width: 650px;
+}
+
+
+#questionsTable1 {
+    position: relative;
+    right: 600px;
+    height: 70px;
+    width: 200px;
+    top: -30px;
+}
+#theQNum {
+    position: relative;
+    top: -46px;
+    right: 500px;
+}
+
+#10pt{
+    font-size:10pt;
+}
+
+#rightA {
+    font-size: 10pt;
+    width: 10px;
+    position: relative;
+    top: 50px;
+}
+
+#AnsCount1 {
+    
+    position: relative;
+    top: 28px;
+    right: -115px;
+}
+
+#firstQA {
+    position: relative;
+    top: -50px;
+
+}
+
+#secondQA {
+    position: relative;
+    top: -100px;
+    height: 50px;
+}
+
+div#thirdA {
+    position: relative;
+    top: -210px;
+    right: -6px;
+    height: 50px;
+}
+
+div#fourthA {
+    position: relative;
+    top: -190px;
+    right: -5px;
+    height: 50px;
+}
+div#fifthA {
+    position: relative;
+    top: -130px;
+    right: -5px;
+    height: 50px;
+}
+#change1 {
+    position: relative;
+    width: 20px;
+    right: 450px;
+    top: -120px
+}
+
+div#PanelA2IMGEdit {
+    position: relative;
+    top: -90px;
+    right: 450px;
+}
+
+div#PanelA3IMGEdit {
+    position: relative;
+    top: -90px;
+    right: 455px;
+    width: 20px;
+}
+
+div#PanelA4IMGEdit {
+    position: relative;
+    top: -90px;
+    right: 455px;
+    width: 20px;
+}
+
+div#PanelA5IMGEdit {
+    position: relative;
+    top: -90px;
+    right: 455px;
+    width: 20px;
+}
+#AnsCount2 {
+    position: relative;
+    right: 315px;
+}
+
+#AnsCount3 {
+    position: relative;
+    right: 322px;
+}
+
+#AnsCount4 {
+    position: relative;
+    right: 322px;
+}
+
+
+
+#QuestCount {
+    font-size: 12pt;
+    position: relative;
+    right: 315px;
+    top: 60px;
+}
+
+
+    div #extraA
+{
+        position: relative; 
+    top: 150px;
+}
+    
+
+div#container {
+    height: 0px;
+}
+/*הסתרת כפתור העלאת תמונה*/
+#FileUpload1, #FileUpload2, #FileUpload3, #FileUpload4, #FileUpload5, #FileUpload0 {
+    visibility: hidden;
+    width: 1px;
+}
+
+
+/*כפתור הוספת משחק*/
+#addGame {
+    position: relative;
+    margin-right: 600px;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 20px 20px;
+    width: 155px;
+    height: 57px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url(../images/emptyB.png);
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    background-size: 154px 55px;
+    font-weight: 700;
+    right: -25px;
+    cursor: pointer;
+}
+
+
+/*גרידויו*/
+#GridView1 {
+    background-color: antiquewhite;
+    position: relative;
+    width: 1043px;
+    height: 54px;
+    top: 0px;
+    right: 0px;
+    direction:rtl;
+    
+}
+
+#grid1 {
+    height: 400px;
+    overflow-y: scroll;
+ /*   direction: ltr;*/
+}
+
+#grid2 {
+    height: 350px;
+    overflow-y: scroll;
+    margin-right: 560px;
+}
+
+.allEdit {
+    position: relative;
+   /* top: -90px;*/
+}
+
+/*כותרות לעמודים*/
+.headers {
+    position: relative;
+    background-color: #D2A374;
+    font-size: 32pt;
+}
+/*כותרת עמוד עריכה*/
+#headerGN {
+  position: relative;
+    background-color: #D2A374;
+    font-size: 32pt;
+    text-align:center;
+
+}
+
+#setHead {
+    position: relative;
+    background-color: #D2A374;
+    font-size: 32pt;
+}
+/*מעבר עכבר על צ'קבוקסים'*/
+.tooltip {
+    position: relative;
+}
+    .tooltip .tooltipTxtNotActive {
+        visibility: hidden;
+        font-family: 'Rubik';
+        font-size: 12pt;
+        width: 230px;
+        height: 20px;
+        padding: 10px;
+        border-color: black;
+        background-color: white;
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        position: absolute;
+        right: -220px;
+        z-index: 7;
+    }
+    .tooltip .tooltipTxt {
+        visibility: hidden;
+        font-family: 'Rubik';
+        font-size: 12pt;
+        width: 230px;
+        height: 20px;
+        padding: 10px;
+        border-color: black;
+        background-color: white;
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        position: absolute;
+        right: -220px;
+        z-index: 7;
+        /*cursor: not-allowed;*/
+    }
+
+    .tooltip:hover .tooltipTxt {
+        visibility: visible;
+    }
+
+
+
+/*    מעבר עכבר על כפתור שמור והמשך*/
+
+.tooltipQ1 {
+    position: relative;
+}
+
+    .tooltipQ1 .tooltipQtxt {
+        visibility: hidden;
+        font-family: 'Rubik';
+        font-size: 12pt;
+        width: 230px;
+        height: 20px;
+        padding: 10px;
+        border-color: black;
+        background-color: white;
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 7;
+        top: -60px;
+        right: 0px;
+    }
+
+
+    .tooltipQ1:hover .tooltipQtxt {
+        visibility: visible;
+       
+    }
+
+    .tooltipQ1 .tooltipQtxtNOACTIVE {
+        visibility: hidden;
+        font-family: 'Rubik';
+        font-size: 12pt;
+        width: 230px;
+        height: 20px;
+        padding: 10px;
+        border-color: black;
+        background-color: white;
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 7;
+        top: -60px;
+        right: 0px;
+    }
+
+
+    .tooltipQ1:hover .tooltipQtxtNOACTIVE {
+        visibility: hidden;
+    }
+
+
+        /*חלונית רקע מאחורי כפתור מחיקה*/
+        #backWindow {
+        position: absolute;
+        background-color: black;
+        opacity: 0.3;
+        height: -webkit-fill-available;
+        width: 1280px;
+        z-index: 6;
+    }
+/*חלונית אזהרת מחיקת משחק*/
+#popUpCheck {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top:60px;
+    background-color: #F9F0EB;
+    margin-right: 350px;
+    border-radius: 35px 35px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 14pt;
+    z-index:7;
+}
+/*טקסט בחלונית אזהרת מחיקת משחק*/
+#textDelete {
+    position: relative;
+    padding-top: 50px;
+    padding-right:85px;
+    width:400px;
+    text-align:center;
+    
+}
+/*כפתור כן מחק*/
+#yesDelite {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 15px 15px;
+    width: 80px;
+    height: 40px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url(../images/emptyB.png);
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    background-size: 80px 40px;
+    font-weight: 700;
+    right: -25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/*כפתור אל תמחק*/
+#noDelite {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 15px 15px;
+    width: 80px;
+    height: 40px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url(../images/emptyB.png);
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    background-size: 80px 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+h1{
+    text-align:right;
+    font-size:20pt;
+    text-decoration:double;
+}
+
+.greenT {
+    color: #00B050;
+    font-size:12pt;
+}
+
+.redT {
+    color: red;
+    font-size: 12pt;
+}
+
+#goBack {
+    float: left;
+    margin-top: 3px;
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 180px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url(../images/emptyB.png);
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    background-size: 180px 45px;
+    font-weight: 700;
+    right: -25px;
+    cursor: pointer;
+}
+
+#theQuestion {
+    border-radius: 15px 15px;
+}
+
+
+
+
+
+
+/*מיקום סימן קריאה להסבר הגדרות*/
+#settingsinfoP1 {
+    position: absolute;
+    right: 1050px;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+}
+
+#settingsinfoP {
+    position: absolute;
+    right: 1050px;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    font-size: 0px;
+}
+
+    #settingsinfoP:hover {
+        position: absolute;
+        right: 1050px;
+        top: 80px;
+        z-index: 5;
+        width: 150px;
+        height: 80px;
+        background-image: url('../images/Picture1.png');
+        background-repeat: no-repeat;
+        background-size: 150px 80px;
+        font-size: 12pt;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+/*/////////////////////*//*    עמוד הגדרות*/
+
+/*    עמוד הגדרות - תיבת טקסט לשאלה*/
+#addGameTB {
+    border-radius: 15px 15px;
+}
+
+/*עמוד הגדרות - תיבת טקסט למשוב*/
+
+#endFeedback {
+    border-radius: 15px 15px;
+    margin-top: -10px;
+}
+
+/*כותרת שאלה חדשה*/
+
+#gamenamewriting{
+    padding-right:5px;
+  
+}
+
+/*כותרת תווים במשוב*/
+#endtyping {
+    padding-right: 5px;
+}
+
+#addGameTB{
+    margin-top:-10px;
+}
+
+#gameTime {
+    margin-top: -15px;
+    font-size: 14pt;
+}
+
+#ScoreGame {
+    margin-top: -15px;
+    font-size: 14pt;
+}
+
+/*כפתור שמור והמשך*/
+.saveActive {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url(../images/emptyB.png);
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.NoActive {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/noActive.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: not-allowed;
+}
+
+.saveQAvailble {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url(../images/emptyB.png);
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+}
+/*
+////////////עמוד עריכה*/
+#firstQA #rightAnswer {
+    border-radius: 15px 15px;
+}
+
+#wrongAnswer {
+    border-radius: 15px 15px;
+}
+
+#wrongAnswer2 {
+    border-radius: 15px 15px;
+}
+
+#wrongAnswer3{
+    border-radius: 15px 15px;
+}
+
+#wrongAnswer4 {
+    border-radius: 15px 15px;
+}
+
+/*כפתורים */
+
+.buttoms
+{    position: relative;
+    top: 70px;
+    right: 70px;
+}
+span#AnsCount5 {
+    position: relative;
+    right: 322px;
+}
+
+.addAns {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/emptyB.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+    top: -1px;
+    right: -49px;
+}
+
+.addAnsNotActive {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/noActive.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: not-allowed;
+    top: -1px;
+    right: -49px;
+}
+
+
+#cancelEdit {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/emptyB.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+    top: 0px;
+    right: 53px;
+}
+.EditActive {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/emptyB.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+    right: 572px;
+    top: 2px;
+}
+
+.EditNOActive {
+    position: relative;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 23px 23px;
+    width: 130px;
+    height: 45px;
+    font-family: Rubik;
+    color: white;
+    font-size: 14pt;
+    background-image: url('../images/noActive.png');
+    background-size: 130px 45px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: not-allowed;
+    top: -1px;
+    right: 0px;
+}
+
+.zoomPic {
+    position: relative;
+    top: -1000px;
+    right: 430px;
+    width: 350px;
+    height: 250px;
+    background-color: #F6D9C6;
+    border: solid #D2A374 2px;
+    border-radius: 20px;
+}
+
+.closeZoom {
+    position: relative;
+    right: 308px;
+}
+
+.QpanelOff{
+    visibility:hidden;
+}
+.QpanelOn {
+    visibility: visible;
+}
+.firstQinline {
+    height: 0px;
+}
+
+.allEdit {
+    position: relative;
+    top: 50px;
+}
+
+    div #PanelQuestionIMGEdit {
+
+    position: relative;
+    top: -70px;
+    right: 460px;
+    width: 20px;
+}
+/*.PanelQuestionIMGEditShow {
+    visibility: visible;
+}*/
+
+
